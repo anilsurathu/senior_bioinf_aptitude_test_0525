@@ -9,11 +9,11 @@ They have requested help in converting their de novo assembly script to somethin
 You have until Midnight Wednesday 4th June to complete the following task.
 1)	Fork this GitHub Repository with the analysis script and data.
 3)	Make your fork private.
-4)	Convert the analysis script into a portable pipeline using whichever technologies you deem appropriate. Such as:
+4)	Convert the analysis script into a portable pipeline using whichever technologies you deem appropriate, such as:
 - Virtual environments
 - Containerisation
 - Workflow managers
-5)	Outline any steps required to setup and run the analysis, e.g:
+5)	Outline any steps required to setup and run the analysis e.g:
 - Build docker/singularity container from definition file
 - Install prerequisites
 - Command to start analysis
