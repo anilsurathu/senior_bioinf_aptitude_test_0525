@@ -14,7 +14,7 @@ You have until Midnight Wednesday 4th June to complete the following task.
 - Containerisation
 - Workflow managers
 5)	Outline any steps required to setup and run the analysis e.g:
-- Build docker/singularity container from definition file
+- Build docker/singularity container(s) from definition file(s)
 - Install prerequisites
 - Command to start analysis
 6)	When you are finished, add Sam Haynes (@DimmestP) as a contributor to your repository who will test that your solution outputs the same files as the script. https://github.com/DimmestP
