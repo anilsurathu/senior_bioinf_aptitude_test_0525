@@ -3,8 +3,9 @@ This is the aptitude test for the position of Senior Bioinformatician at the Qua
 All rights reserved.
 ## Overview
 A researcher has acquired some new sequencing data from an experiment looking into a viral genome.
-The researcher has assembled genomes previously by running a script on their own laptop.
+The researcher has assembled genomes previously by [running a script](assembly-script.sh) on their own laptop.
 They have requested help in converting their de novo assembly script to something that can be easily ran on the institute's Cloud or HPC services.
+You can use as an example dataset the following sequencing run available on SRA : [SRR33608272](https://trace.ncbi.nlm.nih.gov/Traces/?view=run_browser&acc=SRR33608272&display=metadata) 
 ## Task
 You have until Midnight Wednesday 4th June to complete the following task.
 1)	Fork this GitHub Repository with the analysis script and data.
