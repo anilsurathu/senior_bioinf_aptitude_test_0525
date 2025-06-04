@@ -7,7 +7,7 @@ The researcher has assembled genomes previously by [running a script](assembly-s
 They have requested help in converting their de novo assembly script to something that can be easily ran on the institute's Cloud or HPC services.
 You can use as an example dataset the following sequencing run available on SRA : [SRR33608272](https://trace.ncbi.nlm.nih.gov/Traces/?view=run_browser&acc=SRR33608272&display=metadata) 
 ## Task
-You have until Midnight Wednesday 4th June to complete the following task.
+You have until Midnight Friday 27th June to complete the following task.
 1)	Fork this GitHub Repository with the analysis script and download the data.
 3)	Make your fork private.
 4)	Convert the analysis script into a portable pipeline using whichever technologies you deem appropriate, such as:
