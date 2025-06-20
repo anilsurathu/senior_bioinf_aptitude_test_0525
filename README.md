@@ -1,5 +1,5 @@
 # Senior Bioinformatician Aptitude Test May 2025
- **Amendment** There was a mistake in the task below as you cannot make a forked repo private. Please clone this repo and create a new repo on you own GitHub account instead.
+ > **Amendment** There was a mistake in the task below as you cannot make a forked repo private. Please clone this repo and create a new repo on you own GitHub account instead.
  
 This is the aptitude test for the position of Senior Bioinformatician at the Quadram Institute. Post number 1004878,
 All rights reserved.
