@@ -6,7 +6,7 @@
 - Install Docker engine: https://docs.docker.com/engine/install/
 - On your local computer, create a run folder named *genome-assembly* and copy Dockerfile there and create two subfolders named *input* and *output*. 
 - Place both fastq.gz files in *input* folder. 
-- To build the Docker image, cd into the folder where Dockerfile is present and run:
+- To build the Docker image, cd into the folder where Dockerfile is present and run the following command. This will build the container with necessary tools to run the pipeline. 
 ```
 docker build -t genome-assembly-pipeline .
 ```
