@@ -1,4 +1,24 @@
 # Senior Bioinformatician Aptitude Test May 2025
+
+## Solution
+- Implemented the pipeline to run on Docker (Dockerfile included) using micromamba image. 
+- Docker script handles installation of tools and dependencies in micromamba environment. 
+- Install Docker engine: https://docs.docker.com/engine/install/
+- On your local computer, create a run folder named *genome-assembly* and copy Dockerfile there and create two subfolders named *input* and *output*. 
+- Place both fastq.gz files in *input* folder. 
+- To build the Docker image, cd into the folder where Dockerfile is present and run:
+```
+docker build -t genome-assembly-pipeline .
+```
+- To run the pipeline use the following command. Make sure to change input and output paths to match your set up. On my machine the run folder is located at *C:\genome-assembly*.
+```
+docker run -e FOR="SRR33608272_1.fastq.gz" -e REV="SRR33608272_2.fastq.gz" -v C:\genome-assembly\input:/genome_assembly/input -v C:\genome-assembly\output:/genome_assembly/output genome-assembly-pipeline
+```
+- Intermediate files and results will be saved to *output* folder. 
+- I test this on Windows 11 using Docker Desktop. My *output* folder is commited to this repo as well as the Docker script. 
+- Assembled contigs can be found in *output/megahit/final.contigs.fa*.
+- Thank you for the opportunity and happy testing!
+
  > **Amendment** There was a mistake in the task below as you cannot make a forked repo private. Please clone this repo and create a new repo on your own GitHub account instead.
 ```
 git clone --bare https://github.com/quadram-institute-bioscience/senior_bioinf_aptitude_test_0525.git

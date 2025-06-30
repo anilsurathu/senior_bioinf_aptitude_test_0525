@@ -1,0 +1,4 @@
+File	#Seq	Total bp	Avg	N50	N75	N90	auN	Min	Max
+/workspace/output/3.assemblies/final.contigs.fa	997	475288	476.72	441	360	322	3784.43	271	40766
+File	#Seq	Total bp	Avg	N50	N75	N90	auN	Min	Max
+/genome_assembly/output/megahit/final.contigs.fa	997	475288	476.72	441	360	322	3784.43	271	40766
